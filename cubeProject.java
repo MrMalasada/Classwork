@@ -1,9 +1,9 @@
 package CubeProject;
 
 /**
- *  this class takes a declared side length of cube and calculates the side area, side length, and the total volume
-   at the end, it takes the calculations and prints them in a sentence 
-*/
+ * This class calculates the surface area and volume of a cube 
+ * given its side length, then prints the results as integers.
+ */
 
 public class cubeCalculator {
 	
@@ -21,21 +21,21 @@ public class cubeCalculator {
 		   formula, getting the area of a single side of a cube
 		 */
 		
-		double sideArea = sideLength*sideLength;
+		final double sideArea = sideLength*sideLength;
 		
 		/*
 		 *  this declares "surfaceArea" as a double and sets it equal to 
 	       the surface area formula, getting the surface area of the cube
 		 */
 		
-		double surfaceArea = 6*sideArea;
+		final double surfaceArea = 6*sideArea;
 	
 		/*
 		 *  this declares "volume" as a double and sets it to the volume formula
 		   getting the volume of the cube
 		 */
 		
-		double volume = sideLength * sideLength * sideLength;
+		final double volume = sideLength * sideLength * sideLength;
 	
 		/*
 		 *  this prints the surface area and the volume of the cube in a
@@ -44,5 +44,4 @@ public class cubeCalculator {
 		
 		System.out.print("The surface area of this cube is " + (int) surfaceArea + " and the volume is " + (int) volume);
 	}
-	
 }
