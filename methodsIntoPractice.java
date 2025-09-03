@@ -1,4 +1,6 @@
-
+/**
+ * this is the class where I did the Methods into practice assignment
+ */
 public class ClassWorkAugTwentyNine {
 	/**
 	 * this is the main method, it takes the methods made bellow it and calls them to make sure they work and print
