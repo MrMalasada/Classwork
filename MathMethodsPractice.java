@@ -9,7 +9,7 @@ public class MathMethodsPractice {
 		
 		/*
 		 * This takes my positive and negative doubles and prints me their absolute values. 
-		 * The Math.abs method is overloaded because I use it twice with two different parameters
+		 * The Math.abs method is overloaded because I use it twice with two different data types
 		 * It goes to the next line twice 
 		 */
 		System.out.println("The Absolute Value of posDouble is" + Math.abs(posDouble) + "; the absolute value of negDouble is " + Math.abs(negDouble) + 
@@ -17,6 +17,7 @@ public class MathMethodsPractice {
 		
 		/*
 		 * This takes my positive and negative ints and prints me the power of the pos to the neg and the neg to the pos
+		 * It is not overloaded because it is is always using doubles
 		 * It goes to the next line twice
 		 */
 		System.out.println("The calculation of  posInt ^ negInt is " + Math.pow(posInt, negInt) + "; negInt ^ posInt is " + Math.pow(negInt, posInt) + ".\n");
