@@ -35,12 +35,23 @@ public class MathMethodsPractice {
 		 * Then it casts x as an int then prints it out
 		 * 
 		 */
+		
+		/*
+		 * Its complicated and kinda unorthadox, but it works by taking the random number and minusing it by one so that it gets the remainder
+		 * then it takes that remainder and mulitplies it by the lowest or highest value, then it takes the regular random number and multiplies it by the
+		 * other lowest or highest value. 
+		 * when they are added together, the resulting value is between the lowest and highest number since you shrunk it by the two parts of 1.0
+		 */
 		double f = Math.random();
 		double x = 11*(1.0 - f) + 20*f;
 		
 		System.out.print((int) x);
 		
 		
+			
+		// System.out.println((int)((10*f)+10)); Here is how we should done it lol
+		}
+		
 	}
 
-}
+
