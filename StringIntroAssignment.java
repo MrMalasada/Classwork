@@ -1,4 +1,3 @@
-package CubeCalculator;
 import java.util.Scanner;
 
 /**
@@ -69,17 +68,11 @@ public class StringIntroAssignment {
 		
 		String firstThree = new String (johnDoe.substring(0,3));
 		
-		int lastPos = johnDoe.length() - 1;
+		char thirdToLast = johnDoe.charAt(johnDoe.length() - 3);
 		
-		int secToLastPos = johnDoe.length() - 2;
+		char secToLast = johnDoe.charAt(johnDoe.length() - 2);
 		
-		int thirdToLastPos = johnDoe.length() - 3;
-		
-		char thirdToLast = johnDoe.charAt(thirdToLastPos);
-		
-		char secToLast = johnDoe.charAt(secToLastPos);
-		
-		char last = johnDoe.charAt(lastPos);
+		char last = johnDoe.charAt(johnDoe.length() - 1);
 		
 		return "The first three letters are " + firstThree + " and the last three are " + thirdToLast + secToLast + last;
 
