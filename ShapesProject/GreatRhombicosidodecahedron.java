@@ -47,7 +47,7 @@ public class GreatRhombicosidodecahedron {
 	 */
 	public static void getSumOfInteriorAngles()
 	{
-		System.out.print("The sum of all of the interior angles of a Great Rhombicosidodecahedron is 42480 degrees");
+		System.out.println("The sum of all of the interior angles of a Great Rhombicosidodecahedron is 42480 degrees");
 	}
 	
 }
