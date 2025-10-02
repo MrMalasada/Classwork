@@ -46,7 +46,7 @@ public class Octogon {
 	// this prints out the sum of all the interior angles of an octogon obnject
 	public static void getSumOfInteriorAngles()
 	{
-		System.out.print("The sum of all of the interior angles of an octogon is 1080 degrees");
+		System.out.println("The sum of all of the interior angles of an octogon is 1080 degrees");
 	}
 	
 }
