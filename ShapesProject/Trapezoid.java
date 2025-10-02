@@ -63,7 +63,7 @@ public class Trapazoid {
 	//this prints out the sum of all the interior angles of all trapazoid objects
 	public static void getSumOfInteriorAngles()
 	{
-		System.out.print("The sum of all of the interior angles of a trapazoid is 360 degrees");
+		System.out.println("The sum of all of the interior angles of a trapazoid is 360 degrees");
 	}
 
 }
