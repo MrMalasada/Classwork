@@ -48,7 +48,7 @@ public class Dodecagon {
 	 */
 	public static void getSumOfInteriorAngles()
 	{
-		System.out.print("The sum of all of the interior angles of a dodecaogon is 1440 degrees");
+		System.out.println("The sum of all of the interior angles of a dodecaogon is 1440 degrees");
 	}
 	
 }
