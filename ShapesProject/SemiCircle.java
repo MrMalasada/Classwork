@@ -42,7 +42,7 @@ public class SemiCircle {
 	//this prints the sum of all interior angles of a semicircle object
 	public static void getSumOfInteriorAngles()
 	{
-		System.out.print("The sum of all of the interior angles of a SemiCircle is 180 degrees");
+		System.out.println("The sum of all of the interior angles of a SemiCircle is 180 degrees");
 	}
 	
 }
