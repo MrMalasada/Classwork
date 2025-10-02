@@ -55,7 +55,7 @@ public class Megagon {
 	// this prints the sum of all the interior angles of any given megagon object
 	public static void getSumOfInteriorAngles()
 	{
-		System.out.print("The sum of all of the interior angles of an Megagon is 1799998000 degrees");
+		System.out.println("The sum of all of the interior angles of an Megagon is 1799998000 degrees");
 	}
 	
 }
