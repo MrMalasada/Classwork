@@ -57,7 +57,7 @@ public class Parallelogram {
 	//this prints the sum of all interior angles of a parallelogram object
 		public static void getSumOfInteriorAngles()
 		{
-			System.out.print("The sum of all of the interior angles of a parallelogram is 360 degrees");
+			System.out.println("The sum of all of the interior angles of a parallelogram is 360 degrees");
 		}
 	
 }
