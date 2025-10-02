@@ -42,7 +42,7 @@ public class Pentagon {
 	// this prints the sum of all the interior angles of a pentagon object
 	public static void getSumOfInteriorAngles()
 	{
-		System.out.print("The sum of all of the interior angles of a pentagon is 540 degrees");
+		System.out.println("The sum of all of the interior angles of a pentagon is 540 degrees");
 	}
 	
 }
