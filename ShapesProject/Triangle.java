@@ -53,7 +53,7 @@ public class Triangle {
 	// this prints the sum of the interior angles of all triangles
 	public static void getSumOfInteriorAngles()
 	{
-		System.out.print("The sum of all of the interior angles of a triangle is 180 degrees");
+		System.out.println("The sum of all of the interior angles of a triangle is 180 degrees");
 	}
 	
 }
