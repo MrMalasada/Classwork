@@ -14,22 +14,17 @@ public boolean cigarParty(int cigars, boolean isWeekend) {
 }
 
 // here is my code for dateFashon
-//currently not 100% working
 
 public int dateFashion(int you, int date) {
-  if (you >= 8 || date >= 8) {
+  if ((you >= 8 || date >= 8) && (you>2 && date>2)) {
       return 2;
-  } else if (you >= 3 && date >= 3) {
-      return 1;
-  } 
-  else if (you <= 2 || date <= 2) {
+  } else if (you <= 2 || date <= 2) {
       return 0;
-}
+  }
   else{
-    return 0;
+    return 1;
   }
 }
-
 
 //this is my code for squirrlPlay
 
@@ -71,6 +66,27 @@ public int caughtSpeeding(int speed, boolean isBirthday) {
     return 0;
   }
 }
+
+//This is a working code for caughtSpeeding
+
+public int caughtSpeeding(int speed, boolean isBirthday) {
+    if (isBirthday){
+      speed -= 5;
+    }
+    if (speed<=60){
+      return 0;
+    }
+  else if (speed >= 61  && speed <=80){
+    return 1;
+  }
+  else if (speed >= 81) {
+    return 2; 
+  }
+  else{
+    return 0;
+  }
+}
+
 
 //here is my code for sorta sum
 
