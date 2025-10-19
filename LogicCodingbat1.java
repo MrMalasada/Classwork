@@ -40,32 +40,6 @@ public boolean squirrelPlay(int temp, boolean isSummer) {
   }
 }
 
-// this is my code for caughtspeeding
-//currently not 100% working
-
-public int caughtSpeeding(int speed, boolean isBirthday) {
-  if (speed <=86 && isBirthday){
-    return 1;
-  }
-  else if (speed >= 81){
-    return 2;
-  }
-  else if (speed >= 65 && speed <= 85 && isBirthday){
-    return 1;
-  }
-  else if (speed >= 61 && speed <= 80 && !isBirthday){
-    return 1;
-  }
-  else if (speed <=65 && isBirthday){
-    return 0;
-  }
-  else if (speed <60){
-    return 0;
-  }
-  else{
-    return 0;
-  }
-}
 
 //This is a working code for caughtSpeeding
 
