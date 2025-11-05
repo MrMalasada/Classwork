@@ -26,6 +26,15 @@
 *
 * 6. code3 will only run when test and test2 are both false
 *
-* 7.
+* 7. Yes, the two code snippits will do the same thing
 *
+* 8. No, the code snippiets do not do the same thing they are essentially opposites of eachother.
+*
+* 9a. !a || !b
+*
+* 9b. !a && !c
+*
+* 9c. q != p 
+*
+* 9d.  !z < !x
 */
