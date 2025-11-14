@@ -42,9 +42,17 @@ public class LoopsIntroPractice {
 	public static boolean getIfRepeats()
 	{
 		
-		// code incomlete
+			for(int i = 0 ; i < repeating.length() - 1; i++)
+		{
+			
+			if (repeating.charAt(i) == repeating.charAt(i + 1)) {
+                return true;
+            }
+			
 		
-		return false;
+		}
+		
+ 		return false;
 	}
 	
 }
